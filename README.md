@@ -1,4 +1,22 @@
-Titulo: Proyecto para predecir el precio de alojamiento en Airbnb con lo aprendido en machine learning.
-En este proyecto se utiliza un conjunto de datos de Airbnb para construir modelos predictivos del precio de los alojamientos.
-El proceso incluye la división inicial del conjunto de datos en entrenamiento y prueba, la selección y limpieza de variables, el análisis exploratorio sobre el conjunto de entrenamiento y la aplicación de pipelines de preprocesamiento para evitar fugas de información.
-Se comparan modelos de Regresión Lineal y Random Forest mediante validación cruzada, obteniendo mejores resultados con Random Forest, lo que sugiere la presencia de relaciones no lineales entre las variables explicativas y el precio.
+Airbnb Price Prediction using Machine Learning
+
+This project focuses on predicting Airbnb listing prices using machine learning techniques.
+
+The dataset is analyzed and processed to build predictive models capable of estimating prices based on listing features.
+
+Workflow:
+- Exploratory Data Analysis (EDA)
+- Feature selection and cleaning
+- Train/test split
+- Pipeline creation to avoid data leakage
+- Model training and comparison
+
+Models used:
+- Linear Regression
+- Random Forest Regressor
+
+Results:
+Random Forest performed better, suggesting non-linear relationships between features and price.
+
+Conclusion:
+This project demonstrates a complete machine learning workflow, including preprocessing, modeling, and evaluation using cross-validation.
